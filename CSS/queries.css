@@ -1,0 +1,58 @@
+/* RESPONSIVENSS AT 912PX */
+@media (max-width:57em) {
+    html {
+        font-size: 81.25%;
+    }
+    .heading-primary {
+        font-size: 2.2rem;
+    }
+}
+
+/* RESPONSIVENSS AT 800PX */
+@media (max-width: 50em) {
+    html {
+        font-size: 75%;
+    }
+    .heading-primary {
+        font-size: 2rem;
+    }
+    .text-primary {
+        font-size: 1rem;
+    }
+}
+
+/* RESPONSIVENSS AT 800PX */
+@media (max-width: 47em) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+/* RESPONSIVENSS AT 6PX */
+@media (max-width: 38em) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .container {
+        max-width: 25rem;
+        text-align: center;
+    }
+    .list-value {
+        font-size: 1.4rem;
+    }
+    .texts-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .list-primary {
+        flex-direction: column;
+        align-items: center;
+    }
+    .list-primary li:not(:last-child) {
+        margin-right: 0rem;
+        margin-bottom: 2.4rem;
+    }
+
+}
